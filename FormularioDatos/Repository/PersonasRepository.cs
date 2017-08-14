@@ -9,7 +9,7 @@ namespace FormularioDatos.Repository {
     public class PersonasRepository : IPersonasRepository {
 
         public Persona Create(Persona persona) {
-            return ApplicationDbContext.applicationDbContext.Personas.Create();
+            return ApplicationDbContext.applicationDbContext.Personas.Add(persona);
         }
 
         public Persona Delete(long id) {
@@ -37,9 +37,6 @@ namespace FormularioDatos.Repository {
             }
             ApplicationDbContext.applicationDbContext.Entry(persona).State = EntityState.Modified;
         }
-
-        public Persona PostPersona(Persona persona) {
-            return ApplicationDbContext.applicationDbContext.Personas.Add(persona);
-        }
+            
     }
 }

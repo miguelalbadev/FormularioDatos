@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,YACC,gBAAkB,CAGnB,eACC,gBAAkB,CAGnB,UACC,gBAAkB","file":"static/css/main.8f6a0c41.css","sourcesContent":["#textNombre{\n\tmargin-left: 75px;\n}\n\n#textApellidos{\n\tmargin-left: 50px;\n}\n\n#textEdad{\n\tmargin-left: 80px;\n}\n\n\n// WEBPACK FOOTER //\n// ./src/index.css"],"sourceRoot":""}
